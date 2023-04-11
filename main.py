@@ -54,3 +54,53 @@ def search_array(array, value):
 print("Searching array")
 print(arr4)
 print(search_array(arr4, 4))
+
+#create an arr and traverse
+my_array = array('i', [3,4,5,6,7,8,9,1])
+#traverse thru array
+print("Traverse Array")
+for i in my_array:
+    print(i)
+
+#access individual elements
+
+print("Accessing individual element")
+print(my_array[0])
+
+#add element to end array
+
+my_array.append(2)
+print("add item to array")
+print(my_array)
+
+#add element in any position use insert - time consuming
+my_array.insert(9,3)  #<--two arguments
+print("Insert new item into array")
+print(my_array)
+
+#extend array with more than one value
+my_array1 = array('i', [10,22,33])
+my_array.extend(my_array1)
+print("Extend the array")
+print(my_array)
+
+#remove item from array
+my_array.remove(3)
+my_array.remove(33)
+print("Remove item from array")
+print(my_array)
+
+#remove last item by using pop
+print("remove last item with pop")
+# print(my_array.pop())
+
+#remove element thru its index
+print("Remove based on element")
+# print(my_array.index(3))
+
+#reverse the array
+print("initial array")
+print(my_array)
+print("second")
+my_array.reverse()
+print(my_array)
