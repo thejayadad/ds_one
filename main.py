@@ -48,6 +48,7 @@ def search_array(array, value):
     for i in array:
         if i == value:
             return array.index(value) #<-- index comes from array model
+        
         else:
             return f"Value {value} does not exist in this array"
 
@@ -114,4 +115,3 @@ print("Array to String")
 new_array = array('i', [3,4,5,6])
 temp = new_array.tobytes()
 print(temp)
-
