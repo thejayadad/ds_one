@@ -104,3 +104,14 @@ print(my_array)
 print("second")
 my_array.reverse()
 print(my_array)
+
+#count elements of the array
+print("Count elements in array")
+print(my_array.count(8))
+
+#convert array to string
+print("Array to String")
+new_array = array('i', [3,4,5,6])
+temp = new_array.tobytes()
+print(temp)
+
